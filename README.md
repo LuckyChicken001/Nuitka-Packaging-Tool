@@ -113,8 +113,7 @@ Nuitka-Packaging-Tool/
 ├── build_self.py        # 将本工具编译为 exe 的脚本
 ├── requirements.txt     # Python 依赖
 ├── README.md
-├── mingw64/             # MinGW64 编译器（需自行下载，不纳入 Git）
-└── docs/                # 截图、文档（可选）
+└── mingw64/             # MinGW64 编译器（需自行下载，不纳入 Git）
 ```
 ---
 
