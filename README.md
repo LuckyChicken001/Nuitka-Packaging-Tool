@@ -2,11 +2,12 @@
 
 一款基于 **Python + PySide6** 的 Nuitka 图形化打包工具，面向 Windows 用户。无需记忆冗长的命令行参数，通过可视化界面即可完成 Python 程序编译打包。
 
+[![GitHub Repo](https://img.shields.io/badge/GitHub-Nuitka--Packaging--Tool-181717?logo=github)](https://github.com/LuckyChicken001/Nuitka-Packaging-Tool)
 ![Python](https://img.shields.io/badge/Python-3.9%2B-blue)
 ![PySide6](https://img.shields.io/badge/PySide6-6.5%2B-green)
 ![Nuitka](https://img.shields.io/badge/Nuitka-2.0%2B-orange)
 ![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-
+![License](https://img.shields.io/badge/License-MIT-yellow)
 ---
 
 ## ✨ 功能特性
@@ -24,13 +25,6 @@
 
 ---
 
-## 📸 界面预览
-
-> 白蓝配色，分页布局，底部常驻进度条与控制按钮。
-
-（上传截图后可替换此处：`docs/screenshot.png`）
-
----
 
 ## 📋 环境要求
 
@@ -46,10 +40,9 @@
 ### 1. 克隆仓库
 
 ```bash
-git clone https://github.com/你的用户名/nuitka-packing.git
-cd nuitka-packing
+git clone https://github.com/LuckyChicken001/Nuitka-Packaging-Tool.git
+cd Nuitka-Packaging-Tool
 ```
-
 ### 2. 安装依赖
 
 ```bash
@@ -61,7 +54,7 @@ pip install -r requirements.txt
 将 MinGW64 解压到项目根目录下的 `mingw64` 文件夹：
 
 ```
-nuitka-packing/
+Nuitka-Packaging-Tool/
 ├── main.py
 ├── mingw64/
 │   └── bin/
@@ -69,7 +62,6 @@ nuitka-packing/
 │       └── ...
 └── ...
 ```
-
 > MinGW64 体积较大，未包含在仓库中。可从 [WinLibs](https://winlibs.com/) 等渠道下载。
 
 ### 4. 运行程序
@@ -116,7 +108,7 @@ python build_self.py
 ## 📁 项目结构
 
 ```
-nuitka-packing/
+Nuitka-Packaging-Tool/
 ├── main.py              # 主程序（GUI）
 ├── build_self.py        # 将本工具编译为 exe 的脚本
 ├── requirements.txt     # Python 依赖
@@ -124,7 +116,6 @@ nuitka-packing/
 ├── mingw64/             # MinGW64 编译器（需自行下载，不纳入 Git）
 └── docs/                # 截图、文档（可选）
 ```
-
 ---
 
 ## ⚙️ 技术实现
@@ -179,4 +170,4 @@ A：正常。PySide6 + onefile + 内置 Nuitka 首次编译可能需要 20–40 
 
 ---
 
-如果这个项目对你有帮助，欢迎点个 ⭐ Star！
+如果这个项目对你有帮助，欢迎点个 ⭐ [Star](https://github.com/LuckyChicken001/Nuitka-Packaging-Tool)！
